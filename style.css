@@ -1,0 +1,76 @@
+body {
+      position: relative; 
+  }
+  #welcome {
+	    max-width:100vw;
+		height:100vh;
+		width:100vw;
+		background-size:cover;
+		
+		background-image:url('abhi.jpg');
+	}
+  #about {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #contact {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  .navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+  .logoAbhi{
+		font-size:30px;
+		padding:10px;
+		background-color:white;
+	}
+	.logAbhi div span{
+		background-color:black;
+	}
+	
+	.navAbhi{
+	padding:0;
+	max-width:100vw;
+	}
+	.navAbhi li{
+		font-size:15px;
+		padding:10px;
+		
+	}
+	.navAbhi li:hover{
+		background-color:lightblue;
+		color:black	;
+		max-width:100vw;
+	}
+	.Welpage{
+		height:100vh;
+		width:100vw;
+		background-size:cover;
+		background-image:url('keyboard.jpg');
+	
+	}
+	.welCov{
+		background-color:rgba(0,0,0,.6);
+		height:100vh;
+		width:100vw;
+		z-index:5;
+		margin:0;
+		padding-top:50px;
+
+	}
+	
+	
+	.welCont{
+    	font-size:60px;
+		max-width:700px;
+    }
+	/*elcomeCont{
+		position:relative;
+		background-color:green;
+		top:40%;
+		left:60%;
+		height:300px;
+		width:400px;
+	*/
+	
+	//included font files
+	@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Gloria+Hallelujah|Open+Sans+Condensed:300|Pacifico|Poiret+One|Rubik|Russo+One|Saira|Saira+Extra+Condensed|Shadows+Into+Light|Source+Code+Pro');
